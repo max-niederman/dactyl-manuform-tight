@@ -29,7 +29,7 @@
 
 (def thumb-offsets [10 -5 1])
 
-(def keyboard-z-offset 9)                                   ; controls overall height; original=9 with centercol=3; use 16 for centercol=2
+(def keyboard-z-offset 10)                                   ; controls overall height; original=9 with centercol=3; use 16 for centercol=2
 (def bottom-height 2)                                       ; plexiglass plate or printed plate
 (def extra-width 3)                                         ; extra space between the base of keys; original= 2
 (def extra-height -0.5)                                     ; original= 0.5
@@ -536,7 +536,7 @@
 
 
 (def usb-holder (mirror [-1 0 0]
-                        (import "../things/holder v8.stl")))
+                        (import "../vendor/holder-v8.stl")))
 
 (def usb-holder (translate [-40.8 45.5 bottom-height] usb-holder))
 (def usb-holder-space

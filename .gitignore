@@ -8,9 +8,7 @@
 *.gcode
 *.scad
 /target
-*.stl
-*.ai
-*.svg
+/things
 /.idea/
 /dactyl-manuform-mini-keyboard.iml
 
